@@ -1,3 +1,9 @@
-#8. Ask the user for a string containing lowercase letters, uppercase letters, digits or underscores or combination of all. Write a Python program to check whether the string is a valid identifier.
-# Author - Vedika Udgir
+#8. Valid Identifier
+#Author - Vedika Udgir
 
+stringInput = input("Enter a string: ")
+
+if stringInput.isidentifier():
+    print("Valid identifier")
+else:
+    print("Invalid identifier")
