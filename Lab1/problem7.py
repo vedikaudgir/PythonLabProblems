@@ -4,7 +4,7 @@
 stringInput1 = input("Enter a string: ")
 stringInput2 = input("Enter a string: ")
 
-newString1 = stringInput2[:2] + stringInput1[2:]
-newString2 = stringInput1[:2] + stringInput2[2:]
+newString1 = stringInput2[:1] + stringInput1[1:]
+newString2 = stringInput1[:1] + stringInput2[1:]
 
 print(f"{newString1} {newString2}")
